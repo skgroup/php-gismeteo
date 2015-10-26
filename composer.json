@@ -1,0 +1,24 @@
+{
+  "name": "skgroup/php-gismeteo",
+  "type": "library",
+  "description": "Weather from Gismeteo API",
+  "keywords": ["weather", "php-gismeteo", "gismeteo", "api"],
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Stanislav Kiryukhin",
+      "email": "korsar.zn@gmail.com",
+      "role": "Founder and project lead"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SKGroup\\Gismeteo\\": "src/"
+    }
+  }
+}
